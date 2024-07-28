@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn0{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn0:hover{
+     background-color: rgb(198, 101, 101);
+}
+.btn1{
+    border: 2px red solid;
+    color: red;
+}
+.btn1:hover{
+    background-color: rgb(197, 132, 132);
+    color: wheat;
+}
+.nav-link{
+    font-weight: bold;
+}
+.form-control{
+    outline: none;
+    border: none;
+}
+.btn2{
+  background-color: red;
+  
+}
+#main{
+  background: url('images/main1copy.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#main h1{
+    font-size: 6rem;
+    font-weight:bold;
+    color: rgb(32, 32, 184);
+}
+.tips {
+    background-color: rgb(255, 2, 2);
+    display: inline-block;
+    padding: 5px 60px 5px 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+    }
+    .tips a{
+        font-style: none;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bold;
+    }
+
+
+.poster h1{
+    font-size: 10em;
+    font-weight: bold;
+}
+#search-bar {
+    width: 50%;
+}
+
+@media screen and  (max-width: 900px) and (min-width: 301px){
+    #main h1 {
+            font-size: 4em;
+            font-weight: bold;
+        }
+    #search-bar{
+        width: 100%;
+    }
+    .btn0{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 990px) {
+   .card-body img{
+    width: 50%;
+    height: 50%;
+   }
+}
+@media screen and (max-width: 500px)  {
+    .card-body img {
+        width: 50%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .carousel-item button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #main h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+                #search-bar {
+                    width: 100%;
+                }
+}
+
+
+#categories h1{
+    margin-bottom: 3rem;
+    color: rgb(21, 21, 135);
+}
+#categories{
+    color: rgb(190, 24, 24);
+}
+.btn4{
+    width: 20em;
+    height: 100%;
+    margin:auto;
+    padding:20px;
+    color: rgb(50, 50, 224);
+}
+.btn4:hover{
+    background-color: rgb(102, 102, 197);
+    color: antiquewhite;
+}
+#resume{
+    background: linear-gradient(rgb(87, 87, 118,0.6),rgba(67, 67, 206, 0.6)),url("images/woman.jpg") no-repeat;
+    background-size: cover;
+    color: rgb(238, 240, 247);
+    opacity: 0.8;
+}
+.job h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+#work{
+    background: url("images/cool-background.png");
+}
+#work p{
+    color: rgb(207, 42, 42);
+}
+#work h1{
+    color: rgb(220, 220, 229);
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.card{
+    background-color: rgba(7, 7, 148, 0.8);
+    color: rgb(220, 215, 208);
+    }
+
+.card-text{
+    margin: 5px;
+    color: rgb(220, 215, 208);
+}
+#slide-bar{
+    background-color: rgb(251, 250, 248);
+}
+.carousel-item img{
+    border-radius: 450px;
+}
+#search-bar2 input{ 
+         border-radius: 1px;
+}
+
