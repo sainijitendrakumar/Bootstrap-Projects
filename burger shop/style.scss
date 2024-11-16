@@ -1,0 +1,416 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    img {
+        width: 69px;
+        height: 76px;
+    }
+}
+
+.dropdown {
+    .dropdown-menu{background-color: #6c757d;
+        border-radius: 0.5rem;
+       .dropdown-item{
+        color: white;
+        &:active {
+                background-color: rgb(54, 54, 54) !important;
+            }
+       }
+    }
+    @media only screen and (max-width:557px) {
+        display: block;
+    }
+
+    @media only screen and (min-width:558px) {
+        display: none;
+    }
+}
+
+.navbar {
+    @media only screen and (min-width:1200px){
+        width: 75% !important;
+    }
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        margin-bottom: 0rem !important;
+
+        li {
+            font-size: 16px;
+            margin: 5px;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+            }
+        }
+    }
+
+    @media only screen and (max-width:557px) {
+        display: none;
+    }
+}
+
+// Hero section
+
+#hero_section {
+    background-image: url("https://i.postimg.cc/kMhv3H6m/hero-background1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 73px 0px 123px 0px;
+
+    .hero {
+        color: white;
+        display: inline-block;
+        margin-top: 70px;
+        margin-left: 46px;
+
+        h1 {
+            font-size: 44px;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 21px;
+            padding-top: 10px;
+            font-weight: 700;
+        }
+    }
+
+    .btn {
+        background-color: red;
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+// about us section
+
+#about-section {
+    background-color: rgb(13 13 20);
+    display: flex;
+    align-items: center;
+
+    .text-area {
+        @media only screen and (max-width:557px) {
+            text-align: center;
+        }
+
+            .about-section-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+
+            @media only screen and (max-width:557px) {
+                font-size: 20px;
+            }
+        }
+
+        .about-section-para {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+
+            @media only screen and (max-width:557px) {
+                font-size: 14px;
+            }
+        }
+
+        .btn {
+            color: white;
+            font-weight: 700;
+            background-color: red;
+
+            @media only screen and (max-width:557px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+}
+
+/* manu-section */
+
+#menu-section {
+    background-color: rgb(13 13 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .menu-title {
+        font-size: 40px;
+        color: white;
+
+        @media only screen and (max-width:557px) {
+            font-size: 25px;
+        }
+    }
+
+    .item-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+
+        .burger-img {
+            width: 100%;
+            margin: 10px;
+        }
+
+        .item-menu-title {
+            font-size: 30px;
+            color: white;
+
+            @media only screen and (max-width:557px) {
+                font-size: 20px;
+            }
+        }
+
+        .item-menu-para {
+            font-size: 20px;
+            color: white;
+
+            @media only screen and (max-width:557px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* reservationvation section */
+
+#reservation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(13 13 20);
+
+    .reservation-item {
+        color: blanchedalmond;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #333;
+
+        .reservation-item-title {
+            margin-bottom: 17px;
+            font-size: 32px;
+            font-weight: 600;
+            @media only screen and (max-width:557px){
+                font-size: 20px;
+            }
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            input,
+            textarea {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+
+            .btn {
+                padding: 12px;
+                border-radius: 10px;
+                font-weight: bold;
+                background-color: rgb(255 22 22);
+                color: white;
+            }
+        }
+    }
+}
+
+/* coustomer-section */
+
+#coustomer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #070e16;
+    color: white;
+    padding: 20px;
+
+    .coustomer-section-title {
+        padding: 20px;
+        font-weight: 600;
+        font-size: 32px;
+
+        @media only screen and (max-width:557px) {
+            font-size: 22px;
+        }
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+        }
+    }
+}
+
+/* gallery-section */
+
+#gallery-section {
+    background-color: #070e16;
+
+    .gallery-title {
+        font-size: 36px;
+        color: white;
+        @media only screen and (max-width:557px){
+            font-size: 20px;
+        }
+    }
+
+    .gallery-items {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* contact section */
+
+#contact-section {
+    background-color: #333;
+    color: white;
+
+    .contact-title {
+        margin: 3px;
+        font-size: 30px;
+        @media only screen and (max-width:557px){
+            font-size: 22px;
+        }
+    }
+
+    .box-item {
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+
+        .contact-item {
+            padding-left: 1rem !important;
+            display: flex;
+            align-items: start;
+            justify-content: space-around;
+
+            li {
+                list-style: none;
+
+                .contact-icons {
+                    margin-right: 12px;
+                }
+            }
+
+            @media only screen and (max-width:557px) {
+                flex-direction: column;
+            }
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            input,
+            textarea {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+
+            .btn {
+                padding: 12px;
+                border-radius: 10px;
+                font-weight: bold;
+                background-color: rgb(255 22 22);
+                color: white;
+            }
+        }
+    }
+}
+
+
+/* footer-section */
+
+#footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #070e16;
+
+    .copy-right-text {
+        color: aliceblue;
+        padding-top: 20px;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+        .footer-logo {
+            width: 120px;
+            img {
+                width: 100%;
+            }
+        }
+
+        .footer-social a i {
+            padding: 13px 5px 10px 5px;
+            font-size: 20px;
+        }
+
+        .footer-links {
+            margin: 5px;
+
+            a {
+                padding: 6px;
+                text-decoration: none;
+                color: white;
+                font-size: 17px;
+            }
+        }
+    }
+}

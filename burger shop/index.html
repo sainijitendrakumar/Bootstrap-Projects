@@ -1,0 +1,255 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div style="  background-color: rgb(67, 78, 78);;">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-6">
+                    <div class="logo">
+                        <img src="https://i.postimg.cc/sgYhQnjB/iconlogo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <nav class="navbar w-100">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#menu-section">Menu</a></li>
+                            <li><a href="#reservation-section">Reservations</a></li>
+                            <li><a href="#contact-section">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="dropdown " style="margin-right: 5px;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-burger" style="font-size: 29px;"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#about-section">About</a></li>
+                            <li><a class="dropdown-item" href="#menu-section">Menu</a></li>
+                            <li><a class="dropdown-item" href="#reservation-section">Reservations</a></li>
+                            <li><a class="dropdown-item" href="#contact-section">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hero_section">
+        <div class="container">
+            <div class="hero">
+                <h1>Welcome to Burger Hut</h1>
+                <p>Experience the Taste of Perfection</p>
+                <button class="btn">Explore Our Menu</button>
+            </div>
+        </div>
+    </div>
+    <div id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="text-area m-3">
+                        <h2 class="about-section-title">About Burger Hut</h2>
+                        <p class="about-section-para text-start">Experience the finest gourmet burgers in a cozy and
+                            rustic
+                            atmosphere. At Berger Hut, we are
+                            dedicated to
+                            delivering exceptional flavors that will tantalize your taste buds.</p>
+                        <p class="about-section-para text-start">Our chefs meticulously craft each burger using locally
+                            sourced
+                            ingredients and unique flavor
+                            combinations. From juicy beef patties to mouthwatering vegetarian options, there's something
+                            for
+                            everyone.</p>
+                        <button class="btn">Explore Our Menu</button>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="about-img m-3">
+                        <img src="https://i.postimg.cc/ZKVf5hbs/about-image.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-section">
+        <div class="container py-3">
+            <div class="text-center py-2">
+                <h2 class="menu-title">Our Menu</h2>
+            </div>
+            <div class="row g-3">
+                <div class="col-xl-4">
+                    <div class="item-menu">
+                        <img class="burger-img" src="https://i.postimg.cc/MKsNb0zd/burger1.jpg" alt="burger1">
+                        <h3 class="item-menu-title">Classic Cheeseburger</h3>
+                        <p class="item-menu-para">A juicy beef patty topped with melted cheese, fresh lettuce, tomato,
+                            and our special sauce.
+                            Served
+                            with a side of crispy fries.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="item-menu">
+                        <img class="burger-img" src="https://i.postimg.cc/rm0x3k4D/burger2.jpg" alt="burger1">
+                        <h3 class="item-menu-title">Veggie Delight</h3>
+                        <p class="item-menu-para">A delicious veggie patty made from a blend of fresh vegetables and
+                            spices. Topped with
+                            avocado,
+                            sprouts, and tangy mayo. Served with a side of sweet potato fries.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="item-menu">
+                        <img class="burger-img" src="https://i.postimg.cc/7Zh6mN06/burger3.jpg" alt="burger1">
+                        <h3 class="item-menu-title">Spicy BBQ Burger</h3>
+                        <p class="item-menu-para">A fiery burger packed with flavor! Grilled chicken breast smothered in
+                            spicy BBQ sauce,
+                            topped with
+                            jalapenos, crispy onion rings, and chipotle mayo. Served with a side of coleslaw.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reservation-section">
+        <div class="container py-3">
+            <div class="reservation-item">
+                <h1 class="reservation-item-title">Make a Reservation</h1>
+                <form class="form-item">
+                    <input type="text" name="name" placeholder="your name">
+                    <input type="email" name="email" placeholder="your email">
+                    <input type="tel" name="telephone" placeholder="your telephone">
+                    <input type="date" name="date" placeholder="your date">
+                    <input type="time" name="time" placeholder="your time">
+                    <textarea name="message" placeholder="additional message" rows="5"></textarea>
+                    <button class="btn" type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="coustomer-section">
+        <div class="container py-1">
+            <div class="text-center py-2">
+                <h2 class="coustomer-section-title">What our Customers Say</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="items">
+                        <img src="https://i.postimg.cc/wjmnt66V/customer1.jpg" alt="">
+                        <div style="padding-top: 8px;">
+                            <p style="font-weight: bold;">"The burgers at Berger Hut are simply amazing! The flavors are
+                                rich,
+                                and the ingredients are always fresh. It's my go-to place whenever I'm craving a
+                                delicious
+                                meal."</p>
+                            <h3 style="margin-top: 4px;">John Doe</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="items">
+                        <img src="https://i.postimg.cc/QdD1Gbnq/customer2.jpg" alt="">
+                        <div style="padding-top: 8px;">
+                            <p style="font-weight: bold;">"Berger Hut never disappoints! The quality of their burgers
+                                and
+                                the
+                                friendly service make it a top-notch dining experience. I highly recommend it to all
+                                burger
+                                lovers!"</p>
+                            <h3 style="margin-top: 4px;">Jane Smith</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery-section">
+        <div class="container py-3">
+            <div class="py-2">
+                <h2 class="gallery-title text-center">Gallery</h2>
+            </div>
+            <div class="row g-3">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="gallery-items">
+                        <img src="https://i.postimg.cc/9f2t3N2W/gallery1.jpg" alt="gallery1">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="gallery-items">
+                        <img src="https://i.postimg.cc/rF69CpH0/gallery2.jpg" alt="gallery2">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="gallery-items">
+                        <img src="https://i.postimg.cc/HnmVnFSx/gallery3.jpg" alt="gallery3">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="gallery-items">
+                        <img src="https://i.postimg.cc/8cCgZHc4/gallery4.jpg" alt="gallery4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-section">
+        <div class="container py-3">
+            <h2 class="contact-title text-center">Contact Us</h2>
+            <div class="box-item">
+                <ul class="contact-item" class="g-4">
+                    <li><i class="fa-solid fa-house contact-icons"></i>123 Main Street, City, Country</li>
+                    <li><i class="fa-solid fa-phone contact-icons"></i>+1 234 567 890</li>
+                    <li><i class="fa-solid fa-envelope contact-icons"></i>info@bergerhut.com</li>
+                </ul>
+                <form class="form-item">
+                    <input type="text" name="name" placeholder="your name">
+                    <input type="email" name="email" placeholder="your email">
+                    <textarea name="message" placeholder="additional message" rows="5"></textarea>
+                    <button class="btn" type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-section">
+        <div class="container">
+            <div class="footer-item">
+                <div class="footer-logo">
+                    <img src="https://i.postimg.cc/WbfndvnN/iconlogo.png" alt="">
+                </div>
+                <nav class="footer-links">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Menu</a>
+                    <a href="">Reservation</a>
+                    <a href="">Testimonial</a>
+                    <a href="">Gallery</a>
+                    <a href="">Contact</a>
+                </nav>
+                <div class="footer-social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <p class="copy-right-text text-center">&copy;2023 Berger Hut. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
