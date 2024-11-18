@@ -1,0 +1,201 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 0.6;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+header .happy-meal-logo {
+  width: 55px;
+  padding: 7px;
+  background-color: beige;
+  border-radius: 28px;
+}
+header .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0rem !important;
+}
+@media only screen and (min-width: 1200px) {
+  header .list {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 557px) {
+  header .list {
+    display: none;
+  }
+}
+header .list .list-items {
+  list-style: none;
+}
+header .list .list-items a {
+  text-decoration: none;
+  color: beige;
+  font-size: 17px;
+  font-weight: 600;
+}
+header .dropdown .dropdown-menu {
+  background-color: #6c757d;
+  border-radius: 0.5rem;
+}
+header .dropdown .dropdown-menu .dropdown-item {
+  color: white;
+}
+header .dropdown .dropdown-menu .dropdown-item:active {
+  background-color: rgb(54, 54, 54) !important;
+}
+@media only screen and (max-width: 557px) {
+  header .dropdown {
+    display: block;
+  }
+}
+@media only screen and (min-width: 558px) {
+  header .dropdown {
+    display: none;
+  }
+}
+
+#home {
+  position: relative;
+}
+#home::before {
+  content: "";
+  background-image: url("https://i.postimg.cc/MTt8NVFD/home-bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.59;
+  z-index: -1;
+}
+#home .home-items {
+  color: white;
+  display: flex;
+  height: 75%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#service .service-title {
+  font-size: 35px;
+}
+@media only screen and (max-width: 557px) {
+  #service .service-title {
+    font-size: 20px;
+  }
+}
+#service .service-items {
+  max-width: 100%;
+  border-radius: 16px;
+  background-color: #e5e5e4;
+}
+#service .service-items .service-items-image {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service .service-items .service-items-title {
+  text-align: center;
+  font-size: 20px;
+}
+@media only screen and (max-width: 557px) {
+  #service .service-items .service-items-title {
+    font-size: 18px;
+  }
+}
+#service .service-items .service-items-para {
+  font-size: 16px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+@media only screen and (max-width: 557px) {
+  #service .service-items .service-items-para {
+    font-size: 15px;
+  }
+}
+
+#client {
+  position: relative;
+}
+#client::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("https://i.postimg.cc/rpr38tFS/clients-image.jpg");
+  position: absolute;
+  opacity: 0.59;
+  z-index: -1;
+}
+#client .client-title {
+  font-size: 35px;
+}
+@media only screen and (max-width: 557px) {
+  #client .client-title {
+    font-size: 18px;
+  }
+}
+#client .client-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0rem !important;
+}
+#client .client-list .client-list-item {
+  margin: auto;
+}
+#client .client-list .client-list-item img {
+  width: 50%;
+  height: auto;
+}
+
+/* footer-section */
+#footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #070e16;
+}
+#footer-section .copy-right-text {
+  color: aliceblue;
+  padding-top: 20px;
+}
+#footer-section .footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#footer-section .footer-item .footer-logo {
+  width: 120px;
+}
+#footer-section .footer-item .footer-logo img {
+  width: 100%;
+}
+#footer-section .footer-item .footer-social a i {
+  padding: 13px 5px 10px 5px;
+  font-size: 20px;
+}
+#footer-section .footer-item .footer-links {
+  margin: 5px;
+}
+#footer-section .footer-item .footer-links a {
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
