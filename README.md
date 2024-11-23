@@ -1,4 +1,4 @@
-#Project with Bootstrap fully Responsive on all devices 
+<h2>Project with Bootstrap fully Responsive on all devices</h2>
 
 <table>
   <thead>
